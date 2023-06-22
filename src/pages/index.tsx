@@ -16,29 +16,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex h-screen flex-col items-center bg-slate-700 justify-center">
-        <div className="justify-center items-center bg-white w-32rem h-41rem rounded-md text-gray-600">
-          <div className="flex flex-col items-center text-4xl mt-6 ">
+        <div className="justify-center items-center bg-white w-24rem h-32rem rounded-md text-gray-600">
+          <div className="flex flex-col items-center text-3xl mt-6 ">
             <AiOutlineUser />
             <h1>Login</h1>
           </div>
 
-          <div className="flex flex-col text-center items-center justify-center mt-10 text-2xl">
+          <div className="flex flex-col text-center items-center justify-center mt-10 text-lg">
             <button
-              className=" flex text-center justify-center items-center mt-14 text-white  h-9 w-80 rounded-lg bg-sky-600 ring-1"
+              className=" flex text-center justify-center items-center mt-14 text-white  h-7 w-80 rounded-lg bg-sky-600 ring-1"
               type="submit"
               onClick={() => signIn('google')}
             >
               <FcGoogle className=" mr-6 bg-white " /> Entrar Com Google
             </button>
             <button
-              className=" flex text-center justify-center items-center mt-14 text-white  h-9 w-80 rounded-lg bg-gray-600 ring-1"
+              className=" flex text-center justify-center items-center mt-14 text-white  h-7 w-80 rounded-lg bg-gray-600 ring-1"
               type="submit"
               onClick={() => signIn('github')}
             >
               <AiFillGithub className=" text-3xl mr-6 " /> Entrar Com Github
             </button>
             <button
-              className=" flex text-center justify-center items-center mt-14 text-white  h-9 w-80 rounded-lg bg-[#003f67] ring-1"
+              className=" flex text-center justify-center items-center mt-14 text-white  h-7 w-80 rounded-lg bg-[#003f67] ring-1"
               type="submit"
               onClick={() => signIn('linkedin')}
             >
