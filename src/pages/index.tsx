@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import { AiFillGithub, AiOutlineUser, AiFillLinkedin } from 'react-icons/ai'
-import { FcGoogle } from 'react-icons/fc'
+import { BsGoogle } from 'react-icons/bs'
 
 import { getSession, signIn } from 'next-auth/react'
 import { GetServerSideProps } from 'next'
@@ -24,25 +24,25 @@ export default function Home() {
 
           <div className="flex flex-col text-center items-center justify-center mt-10 text-lg">
             <button
-              className=" flex text-center justify-center items-center mt-14 text-white  h-7 w-80 rounded-lg bg-sky-600 ring-1"
+              className=" flex text-center justify-center items-center mt-14 text-white  h-7 w-80 rounded-lg bg-sky-600 ring-1 hover:scale-95 transition duration-300 ease-in-out"
               type="submit"
               onClick={() => signIn('google')}
             >
-              <FcGoogle className=" mr-6 bg-white " /> Entrar Com Google
+              <BsGoogle className=" text-xl mr-6" /> Entrar Com Google
             </button>
             <button
-              className=" flex text-center justify-center items-center mt-14 text-white  h-7 w-80 rounded-lg bg-gray-600 ring-1"
+              className=" flex text-center justify-center items-center mt-14 text-white  h-7 w-80 rounded-lg bg-gray-600 ring-1 hover:scale-95 transition duration-300 ease-in-out"
               type="submit"
               onClick={() => signIn('github')}
             >
-              <AiFillGithub className=" text-3xl mr-6 " /> Entrar Com Github
+              <AiFillGithub className=" text-2xl mr-6 " /> Entrar Com Github
             </button>
             <button
-              className=" flex text-center justify-center items-center mt-14 text-white  h-7 w-80 rounded-lg bg-[#003f67] ring-1"
+              className=" flex text-center justify-center items-center mt-14 text-white  h-7 w-80 rounded-lg bg-[#003f67] ring-1 hover:scale-95 transition duration-300 ease-in-out"
               type="submit"
               onClick={() => signIn('linkedin')}
             >
-              <AiFillLinkedin className=" text-3xl mr-6 " /> Entrar Com Linkedin
+              <AiFillLinkedin className=" text-2xl mr-6 " /> Entrar Com Linkedin
             </button>
           </div>
         </div>

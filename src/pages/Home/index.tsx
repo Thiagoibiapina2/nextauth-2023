@@ -37,7 +37,7 @@ export default function Login() {
             <p className=" text-xl ml-3">{session?.user?.name}</p>
           </div>
           <button
-            className=" h-10 rounded-xl bg-orange-800"
+            className=" h-10 rounded-xl bg-orange-800 hover:scale-95 transition duration-300 ease-in-out"
             onClick={() => signOut()}
           >
             Sair
