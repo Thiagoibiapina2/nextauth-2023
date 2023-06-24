@@ -1,6 +1,6 @@
 ## Ver projeto
 
-Visite o site em: [hook-form](https://nextauth-2023.vercel.app/)
+Visite o site em: [next-auth](https://nextauth-2023.vercel.app/)
 
 
 ## Descrição
