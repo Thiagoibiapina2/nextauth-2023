@@ -17,7 +17,7 @@ EsLint<br>
 <br>
 
 <Image
-  src="./public/nexthauth.jpg"
+  src="./public/nexthauth.png"
   alt="Texto alternativo da imagem"
   width={500}
   height={500}
@@ -26,7 +26,7 @@ EsLint<br>
 <br>
 
 <Image
-  src="./public/nextauth_Home.jpg"
+  src="./public/nextauth_Home.png"
   alt="Texto alternativo da imagem"
   width={500}
   height={500}
